@@ -1,3 +1,11 @@
+/*
+
+* {
+    border: 1px red solid;
+}
+
+*/
+
 body {
     margin: 0 auto;
     width: 85%;
@@ -30,7 +38,7 @@ body {
 
 .nav li {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 .nav a {
@@ -54,13 +62,13 @@ body {
     background-position-x: 25%;
     grid-area: hero;
     text-align: center;
-    padding-top: 2em;
 }
 
 .hero h1 {
     color: white;
     font-family: 'Permanent Marker', cursive;
     font-size: 3em;
+    margin-top: 1em;
 }
 
 .hero p {
@@ -73,8 +81,21 @@ body {
 }
 
 .intro {
-    background-color: orange;
     grid-area: intro;
+
+}
+
+.intro h2 {
+    font-family: sans-serif;
+    font-style: bolder;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.intro p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 1.25em;
 }
 
 .image1 {
