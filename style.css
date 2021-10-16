@@ -21,7 +21,12 @@ body {
 .nav{
     background-color: red;
     grid-area: nav;
-} 
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
 
 .hero {
     background-color: blue;
