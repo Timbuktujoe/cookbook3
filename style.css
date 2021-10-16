@@ -1,3 +1,59 @@
 body {
     margin: 0;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .2fr 6fr 4fr 6fr 6fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-areas:
+    "nav nav nav nav"
+    "hero hero hero hero"
+    "intro intro intro intro"
+    "image1 text1 text1 text1"
+    "text2 text2 text2 image2"
+    "footer footer footer footer"
+    ;
+}
+
+.nav{
+    background-color: red;
+    grid-area: nav;
+} 
+
+.hero {
+    background-color: blue;
+    grid-area: hero;
+}
+
+.intro {
+    background-color: orange;
+    grid-area: intro;
+}
+
+.image1 {
+    background-color: green;
+    grid-area: image1;
+}
+
+.text1 {
+    background-color: pink;
+    grid-area: text1;
+}
+
+.text2 {
+    background-color: purple;
+    grid-area: text2;
+}
+
+.image2 {
+    background-color: peachpuff;
+    grid-area: image2;
+}
+
+.footer {
+    background-color: darkturquoise;
+    grid-area: footer;
+}
