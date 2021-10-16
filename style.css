@@ -119,8 +119,13 @@ body {
 }
 
 .footer {
-    background-color: darkturquoise;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: .8em;
     grid-area: footer;
+    text-align: center;
 }
 
 /* Custom Animations */ 
