@@ -24,7 +24,10 @@ body {
 } 
 
 .hero {
-    background-color: blue;
+    background-image: url("images/hamburger.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 65%;
+    background-position-x: 25%;
     grid-area: hero;
 }
 
