@@ -78,15 +78,26 @@ body {
 }
 
 .image1 {
-    background-color: green;
+    background-color: #000;
     grid-area: image1;
+    color: white;
 }
-
+.image1>img {
+    object-fit: cover;
+    width: 100%
+}
+.image1>p {
+    text-align: center;
+}
 .text1 {
-    background-color: pink;
+    background-color: #000;
     grid-area: text1;
+    
 }
-
+.ul1 {
+    color: white;
+    
+}
 .text2 {
     background-color: purple;
     grid-area: text2;
