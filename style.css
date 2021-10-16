@@ -81,3 +81,32 @@ body {
     background-color: darkturquoise;
     grid-area: footer;
 }
+
+/* Custom Animations */ 
+.hero {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+.intro {
+    --animate-duration: 1.6s;
+    --animate-delay: 0.9s;
+}
+.image1 {
+    --animate-duration: 2.3s;
+    --animate-delay: 0.1s;
+}
+.text1 {
+    --animate-duration: 2.8s;
+    --animate-delay: 0.9s;
+}
+.text2 {
+    --animate-duration: 3.3s;
+    --animate-delay: 0.9s;
+}
+.image2 {
+    --animate-duration: 3.9s;
+    --animate-delay: 0.1s;
+}
+footer {
+    --animate-duration: 4.3s;
+}
