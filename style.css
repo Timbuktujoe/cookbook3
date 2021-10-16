@@ -20,13 +20,31 @@ body {
 }
 
 .nav{
-    background-color: red;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: .8em;
+    text-align: right;
     grid-area: nav;
 }
 
 .nav li {
     display: inline-block;
     margin-right: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: magenta;
+    font-weight: bolder;
 }
 
 .hero {
@@ -36,7 +54,7 @@ body {
     background-position-x: 25%;
     grid-area: hero;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 2em;
 }
 
 .hero h1 {
@@ -48,8 +66,10 @@ body {
 .hero p {
     color: white;
     font-family: sans-serif;
+    font-weight: lighter;
     max-width: 55%;
     margin: 0 auto;
+    text-align: left;
 }
 
 .intro {
